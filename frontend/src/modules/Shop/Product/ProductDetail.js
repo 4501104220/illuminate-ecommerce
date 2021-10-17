@@ -22,11 +22,11 @@ function ProductDetail({product, params}) {
                 <meta name="description" content={product.description}/>
                 <meta name="keywords" content={product.title}></meta>
                 <link rel="canonical" href={`${DOMAIN}/product/${params.product}`}/>
-                <meta property="og:title" content={`${product.title}| Shop Sale`}/>
+                <meta property="og:title" content={`${product.title}| Shop Illuminate`}/>
                 <meta property="og:description" content={product.description?.split(" ").slice(0, 18).join(" ")}/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:url" content={`${DOMAIN}/product/${params.product}`}/>
-                <meta property="og:site_name" content="Shop sale"/>
+                <meta property="og:site_name" content="Shop Illuminate"/>
 
                 <meta property="og:image" content={`${product.image}`}/>
                 <meta property="og:image:secure_url" content={`${product.image}`}/>
@@ -47,7 +47,7 @@ function ProductDetail({product, params}) {
                             {product.description}
                         </div>
                         <h4>
-                            Vận Chuyển :
+                            Vận Chuyển:
                             <span style={{marginLeft: 10, marginRight: 10}}>
                 <img
                     alt="free shipping"
