@@ -52,12 +52,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/auth/register",
+              "raw": "http://localhost:5001/api/auth/register",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "auth",
@@ -95,12 +95,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/auth/login",
+              "raw": "http://localhost:5001/api/auth/login",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "auth",
@@ -137,12 +137,12 @@
                   ]
                 },
                 "url": {
-                  "raw": "http://localhost:3001/api/auth/login",
+                  "raw": "http://localhost:5001/api/auth/login",
                   "protocol": "http",
                   "host": [
                     "localhost"
                   ],
-                  "port": "3001",
+                  "port": "5001",
                   "path": [
                     "api",
                     "auth",
@@ -236,12 +236,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/auth/verify-otp",
+              "raw": "http://localhost:5001/api/auth/verify-otp",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "auth",
@@ -274,12 +274,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/auth/resend-verify-otp",
+              "raw": "http://localhost:5001/api/auth/resend-verify-otp",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "auth",
@@ -317,12 +317,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/auth/logout",
+              "raw": "http://localhost:5001/api/auth/logout",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "auth",
@@ -360,12 +360,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/auth/send-otp-auth",
+              "raw": "http://localhost:5001/api/auth/send-otp-auth",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "auth",
@@ -402,12 +402,12 @@
                   ]
                 },
                 "url": {
-                  "raw": "http://localhost:3001/api/auth/login",
+                  "raw": "http://localhost:5001/api/auth/login",
                   "protocol": "http",
                   "host": [
                     "localhost"
                   ],
-                  "port": "3001",
+                  "port": "5001",
                   "path": [
                     "api",
                     "auth",
@@ -498,12 +498,12 @@
               "urlencoded": []
             },
             "url": {
-              "raw": "http://localhost:3001/api/product",
+              "raw": "http://localhost:5001/api/product",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "product"
@@ -524,12 +524,12 @@
               }
             ],
             "url": {
-              "raw": "http://localhost:3001/api/product/nike-mid-white-2",
+              "raw": "http://localhost:5001/api/product/nike-mid-white-2",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "product",
@@ -551,12 +551,12 @@
               }
             ],
             "url": {
-              "raw": "http://localhost:3001/api/product/nike-mid-white-2",
+              "raw": "http://localhost:5001/api/product/nike-mid-white-2",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "product",
@@ -625,12 +625,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/product",
+              "raw": "http://localhost:5001/api/product",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "product"
@@ -661,12 +661,12 @@
               "raw": "{ \n  \"items\": \n  [\"5f97b384299d6e5edf48e183\", \"5f97b3cd299d6e5edf48e184\"]\n}"
             },
             "url": {
-              "raw": "http://localhost:3001/api/product/get-price-for-products?items[]=5f97b384299d6e5edf48e183&items[]=5f97b3cd299d6e5edf48e184",
+              "raw": "http://localhost:5001/api/product/get-price-for-products?items[]=5f97b384299d6e5edf48e183&items[]=5f97b3cd299d6e5edf48e184",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "product",
@@ -745,12 +745,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/product/nike-mid-white-2",
+              "raw": "http://localhost:5001/api/product/nike-mid-white-2",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "product",
@@ -806,12 +806,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/category/book-1-3434",
+              "raw": "http://localhost:5001/api/category/book-1-3434",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "category",
@@ -861,12 +861,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/category",
+              "raw": "http://localhost:5001/api/category",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "category"
@@ -913,12 +913,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/category",
+              "raw": "http://localhost:5001/api/category",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "category"
@@ -965,12 +965,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/category/11",
+              "raw": "http://localhost:5001/api/category/11",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "category",
@@ -1020,12 +1020,12 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:3001/api/category/11",
+              "raw": "http://localhost:5001/api/category/11",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "category",
@@ -1059,12 +1059,12 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:3001/api/order/5f8146d3f157452be80fe900",
+              "raw": "http://localhost:5001/api/order/5f8146d3f157452be80fe900",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "order",
@@ -1101,12 +1101,12 @@
               }
             },
             "url": {
-              "raw": "http://localhost:3001/api/order",
+              "raw": "http://localhost:5001/api/order",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "order"
@@ -1133,12 +1133,12 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:3001/api/order",
+              "raw": "http://localhost:5001/api/order",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "order"
@@ -1174,12 +1174,12 @@
               }
             },
             "url": {
-              "raw": "http://localhost:3001/api/order/5f8146d3f157452be80fe900",
+              "raw": "http://localhost:5001/api/order/5f8146d3f157452be80fe900",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "order",
@@ -1216,12 +1216,12 @@
               }
             },
             "url": {
-              "raw": "http://localhost:3001/api/order/5f8146d3f157452be80fe900",
+              "raw": "http://localhost:5001/api/order/5f8146d3f157452be80fe900",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "order",
@@ -1243,12 +1243,12 @@
             "method": "POST",
             "header": [],
             "url": {
-              "raw": "http://localhost:3001/api/user",
+              "raw": "http://localhost:5001/api/user",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
-              "port": "3001",
+              "port": "5001",
               "path": [
                 "api",
                 "user"

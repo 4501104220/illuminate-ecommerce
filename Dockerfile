@@ -22,7 +22,7 @@ COPY ./backend/package*.json /usr/app/backend/
 RUN npm install
 COPY ./backend /usr/app/backend/
 
-EXPOSE 3001
+EXPOSE 5001
 
 # You can change this
 CMD [ "npm", "start" ]
