@@ -1,0 +1,40 @@
+NODE_ENV=development
+
+## MONGODB
+MONGODB_URI=mongodb://localhost/illuminate-ecom?authSource=admin
+
+
+## FRONTEND 
+FRONTEND_URL=http://localhost:3000/
+BACKEND_URL=http://localhost:5001
+
+JWT_SECRET=abcdefghijklmnopqrstuvwxyz1234567890
+
+## EMAIL
+EMAIL_SMTP_HOST=smtp.gmail.com
+EMAIL_SMTP_PORT=587
+EMAIL_SMTP_USERNAME=8doanthaomy@gmail.com
+EMAIL_SMTP_PASSWORD=frawnstione
+# true for 465, false for other ports
+EMAIL_SMTP_SECURE=false
+
+## Twilio SDK Setup
+ACCOUNT_SID=AC72eff80cf355722fbabc8481e6907647
+AUTH_TOKEN=fb304cf625654659ccd8ce6dcf8b2f50
+VERIFY_SERVICE_SID=VA5c7485acf2ab4ed99a39336c4819fddc
+
+##Redis
+REDIS_URL=redis://127.0.0.1:6379
+
+##MailChimp
+MAICHIMP_APIKEY=993cc65d9c017a8f81ad08d2cc24bf2e-us5
+MAILCHIMP_LISTID=dc8f0fa91b
+
+##VNPAY
+VNP_TMNCODE=1SNJ89L8
+VNP_HASH_SECRET=ODJLXOCEWMFIEJXHJNMZUVFFVRDDXLOT
+VNP_URL=http://sandbox.vnpayment.vn/paymentv2/vpcpay.html
+VNP_RETURN_URL= http://localhost:5001/api/vnpay
+
+##MESSENGER
+PAGE_ACCESS_TOKEN=EAAHoPaVOU9MBABihMsGKsAMSRTFDVLLLMR9Ut5yOaF6wVZAa803xsPBZCHwn3hSdGxu7V4JuYFSUvLpUNJ0xGuyZBHLEy2HZC2b1NTnkCmbWSEZCJNjfhFZA32iIRSEJYGMoxrFJ6YYoOBXW22j5hlgKQ3zlvn5gNS8haNtqJ8P0dZC5h5jjp3WfKCEjCfmVwa0RWHoSfjr8usM5XT8SUqmO2uImON29HkZD
