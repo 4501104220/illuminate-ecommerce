@@ -1,6 +1,6 @@
 {
   "name": "shop-illuminate",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "install-backend": "cd backend && npm install",
     "build-frontend": "cd frontend && npm run build",
     "heroku-postbuild": "npm run install-frontend && npm run install-backend && npm install concurrently && npm run build-frontend",
+    "build": "npm run install-frontend && npm run install-backend && npm install concurrently && npm run build-frontend",
     "start-frontend": "cd frontend && npm start",
     "start-backend": "cd backend && npm start",
     "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
@@ -26,7 +27,7 @@
   },
   "homepage": "https://github.com/4501104220/illuminate-ecommerce#readme",
   "dependencies": {
-    "concurrently": "^5.3.0",
+    "concurrently": "^6.3.0",
     "express": "^4.17.1"
   }
 }
