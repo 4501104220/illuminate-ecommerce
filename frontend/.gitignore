@@ -406,3 +406,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+
+yarn.lock
+package-lock.json

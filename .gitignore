@@ -450,3 +450,6 @@
 /backend/node_modules
 node_modules
 .vercel
+
+yarn.lock
+package-lock.json
