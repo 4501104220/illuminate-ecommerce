@@ -1,7 +1,7 @@
 # illuminate-ecommerce
 E-Commerce
 
-Demo: https://shop-illuminate.vercel.app
+Demo: https://
 
 ---
 
