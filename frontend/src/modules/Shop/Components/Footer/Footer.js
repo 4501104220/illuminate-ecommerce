@@ -1,5 +1,4 @@
 import React from "react";
-
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
@@ -88,7 +87,7 @@ export default function Pricing() {
         <React.Fragment>
             {/* Footer */}
             <Container maxWidth="md" component="footer" className={classes.footer}>
-                <Grid container spacing={4} justify="space-evenly">
+                <Grid container spacing={4} justifyContent="space-evenly">
                     {footers.map((footer) => (
                         <Grid item xs={4} sm={3} key={footer.title}>
                             <Typography variant="h6" color="textPrimary" gutterBottom>
