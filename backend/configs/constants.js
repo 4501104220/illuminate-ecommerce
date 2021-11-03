@@ -1,7 +1,7 @@
 module.exports = {
-    mongoUrl: process.env.MONGODB_URI || "mongodb://localhost/ecomm",
+    mongoUrl: process.env.MONGODB_URI || "mongodb+srv://thangtran:thangtran@illuminate-ecommerce.vkylh.mongodb.net/illuminate-ecommerce?retryWrites=true&w=majority\n",
 
-    jwtSecret: process.env.JWT_SECRET || "abcdefghijklmnopqrstuvwxyz1234567890",
+    jwtSecret: process.env.JWT_SECRET || "12aUhnc_tjGEyGb_UcLdmkGNUnSQkO7l3Pp2plhjIbgWJsriDEruemDj0ZCGbpQl",
     jwtExpiresIn: 3600,
 
     logs: process.env.NODE_ENV === "production" ? "combined" : "dev",

@@ -3,6 +3,7 @@ const {jwtSecret} = require("@configs/constants");
 
 const authenticate = jwt({
     secret: jwtSecret,
+    algorithms: ['RS256'],
     getToken: (req) => {
         // If req has Bearer  -> mobile auth , else browser auth using cookie
         if (req.headers.authorization && req.headers.authorization.split(" ")[0] === "Bearer")

@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "modules/Shop/Components/Header/Header";
 import Carousel from "@shop/Components/Carousel/Carousel";
 import ProductList from "@shop/Product/ProductList";

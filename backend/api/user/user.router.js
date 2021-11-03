@@ -1,7 +1,8 @@
 const router = require("express").Router();
 const UserModel = require("./user.controller");
 const auth = require("@middlewares/jwt");
-// eslint-disable-next-line no-unused-vars
+
+// =-----eslint-disable-next-line no-unused-vars
 const validate = require("@middlewares/jwt");
 
 router.get("/", auth, UserModel.getAllUser);

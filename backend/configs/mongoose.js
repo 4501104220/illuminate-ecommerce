@@ -3,11 +3,11 @@ const mongoose = require("mongoose");
 const {mongoUrl} = require("@configs/constants");
 
 const mongoOptions = {
-    useCreateIndex: true,
+   // useCreateIndex: true,
     keepAlive: 1,
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useFindAndModify: false,
+  //  useFindAndModify: false,
 };
 
 function connect() {
