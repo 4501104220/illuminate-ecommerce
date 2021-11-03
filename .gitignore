@@ -457,3 +457,5 @@ package-lock.json
 /backend/package-lock.json
 /frontend/yarn.lock
 /backend/yarn.lock
+
+.idea
