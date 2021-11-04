@@ -16,7 +16,7 @@ module.exports = {
         },
     },
     mailchimpConfigs: {
-        apiKey: process.env.MAICHIMP_APIKEY,
+        apiKey: process.env.MAILCHIMP_APIKEY,
         listsId: process.env.MAILCHIMP_LISTID,
     },
 };
