@@ -99,7 +99,7 @@ function ProductDetail({product, params}) {
                             </Button>
                             <FacebookShareButton
                                 url={`${DOMAIN}/product/${params.product}`}
-                                hashtag="#shop-illuminate"
+                                hashtag="#ShopIlluminate"
                                 style={styleShareNow}
                             >
                                 Share Ngay
