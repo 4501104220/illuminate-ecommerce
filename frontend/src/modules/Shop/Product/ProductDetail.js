@@ -22,7 +22,7 @@ function ProductDetail({product, params}) {
                 <meta name="description" content={product.description}/>
                 <meta name="keywords" content={product.title}></meta>
                 <link rel="canonical" href={`${DOMAIN}/product/${params.product}`}/>
-                <meta property="og:title" content={`${product.title}| Shop Illuminate`}/>
+                <meta property="og:title" content={`${product.title} | Shop Illuminate`}/>
                 <meta property="og:description" content={product.description?.split(" ").slice(0, 18).join(" ")}/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:url" content={`${DOMAIN}/product/${params.product}`}/>
