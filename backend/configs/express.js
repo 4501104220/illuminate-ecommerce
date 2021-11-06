@@ -13,7 +13,6 @@ const webhookRouter = require("@routers/webhook");
 const {handleNotFoundPage, handleError} = require("@middlewares/error");
 const {logs} = require("@configs/constants");
 
-
 const allowedDomains = ["http://localhost:3000", process.env.FRONTEND_URL];
 
 const app = express();
@@ -46,7 +45,7 @@ app.use(
     })
 );
 
-//Router
+// Router
 app.use("/", indexRouter);
 app.use("/api/", apiRouter);
 app.use("/webhook/", webhookRouter);

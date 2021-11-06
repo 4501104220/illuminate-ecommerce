@@ -22,13 +22,4 @@ function Admin() {
     );
 }
 
-// export const getServerSideProps = async function () {
-//   console.log("chay admin");
-//   return { props: { a: 1 } };
-// };
-
-// Admin.getInitialProps = async function () {
-//   console.log("chay admin");
-//   return { props: { a: 1 } };
-// };
 export default Admin;

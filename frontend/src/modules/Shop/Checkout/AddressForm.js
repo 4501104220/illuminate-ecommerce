@@ -75,7 +75,7 @@ function AddressForm({handleNext}) {
                 <Grid item xs={12}>
                     <Controller
                         as={<TextField margin="normal" variant="outlined" fullWidth required/>}
-                        label="address"
+                        label="Address"
                         name="shipping.address"
                         control={control}
                         helperText={errors.title ? errors.title.message : null}

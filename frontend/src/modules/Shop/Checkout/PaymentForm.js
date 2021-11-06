@@ -103,7 +103,7 @@ export default function PaymentForm({total, handleBack}) {
                                         <Grid container justify="space-between">
                                             <Grid item>
                                                 <FormControlLabel value="cod" control={<Radio/>} label="COD"/>
-                                                <Typography> : Thanh toán khi giao hàng</Typography>
+                                                <Typography> Thanh toán khi giao hàng</Typography>
                                             </Grid>
                                             <Grid item>
                                                 <img
@@ -125,7 +125,7 @@ export default function PaymentForm({total, handleBack}) {
                                     <Grid container justify="space-between">
                                         <Grid item>
                                             <FormControlLabel value="paypal" control={<Radio/>} label="Paypal"/>
-                                            <Typography> : Thanh toán khi giao hàng</Typography>
+                                            <Typography> Chuyển khoản trước khi giao hàng </Typography>
                                         </Grid>
                                         <Grid item>
                                             <img
@@ -146,7 +146,7 @@ export default function PaymentForm({total, handleBack}) {
                                     <Grid container justify="space-between">
                                         <Grid item>
                                             <FormControlLabel value="vnpay" control={<Radio/>} label="VNPay"/>
-                                            <Typography> : Thanh toán khi giao hàng</Typography>
+                                            <Typography> Chuyển khoản trước khi giao hàng</Typography>
                                         </Grid>
                                         <Grid>
                                             <img

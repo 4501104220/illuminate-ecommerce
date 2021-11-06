@@ -13,8 +13,8 @@ const CustomForm = ({status, message, onValidated}) => {
 
     return (
         <div>
-            <Typography>Đăng kí nhận tin</Typography>
-            {status === "sending" && <div style={{color: "blue"}}>sending...</div>}
+            <Typography>Đăng kí nhận tin từ Shop</Typography>
+            {status === "sending" && <div style={{color: "blue"}}>Loading...</div>}
             {status === "error" && <div style={{color: "red"}} dangerouslySetInnerHTML={{__html: message}}/>}
             {status === "success" && <div style={{color: "green"}} dangerouslySetInnerHTML={{__html: message}}/>}
             <TextField

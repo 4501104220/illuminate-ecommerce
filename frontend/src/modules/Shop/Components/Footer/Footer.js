@@ -10,17 +10,14 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 const footers = [
     {
-        title: "Company",
-        description: ["Team", "History", "Contact us", "Locations"],
-    },
-    {
-        title: "Features",
-        description: ["Help", "Delivery", "Guarantee", "ShopSaleMail"],
-    },
-    {
-        title: "Payment",
-        description: ["Cash", "AirPay", "MoMo", "MasterCard"],
-    },
+        title: "Nhóm Illuminate",
+        description: [
+            "Trần Quốc Thắng",
+            "Lý Hoàng Long",
+            "Đặng Phan Hoàng Sang",
+            "Chan Hồng Vỹ",
+            "Nguyễn Tiến Vương"],
+    }
 ];
 
 function Copyright() {

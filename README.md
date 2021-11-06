@@ -1,4 +1,5 @@
 # illuminate-ecommerce
+
 E-Commerce
 
 Demo: https://
@@ -20,9 +21,9 @@ Demo: https://
 4. SEO basic
 5. Paypal, VNPAY
 
-## Video demo: 
+## Video demo:
 
-https://youtu.be/  
+https://youtu.be/
 
 ---
 

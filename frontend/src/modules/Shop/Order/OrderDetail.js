@@ -46,7 +46,6 @@ export default function Order() {
                     console.log(error);
                 }
             }
-
             fetchData();
         }
     }, [orderId]);
@@ -59,7 +58,7 @@ export default function Order() {
                     <Grid item md={8}>
                         <div className={classes.root}>
                             <Typography variant="h6" gutterBottom>
-                                Tóm tắt đơn hàng
+                                THÔNG TIN ĐƠN HÀNG
                             </Typography>
                             <List disablePadding>
                                 {order.orderItems.map((item) => (
@@ -104,7 +103,7 @@ export default function Order() {
                                         </Grid>
                                         <Grid item xs={6}>
                                             <Typography
-                                                gutterBottom>: {order.isPaid ? "đã thanh toán" : "chưa thánh toán"}</Typography>
+                                                gutterBottom>: {order.isPaid ? "Đã thanh toán" : "Chưa thanh toán"}</Typography>
                                         </Grid>
                                     </Grid>
                                 </Grid>
@@ -117,5 +116,5 @@ export default function Order() {
                 </Grid>
             </Container>
         );
-    return <h1>Ban khong co order nao</h1>;
+    return <h1>Bạn chưa mua hàng!</h1>;
 }

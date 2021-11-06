@@ -2,7 +2,7 @@ const Mailchimp = require("mailchimp-api-v3");
 const {mailchimpConfigs} = require("@configs/constants");
 const mailchimp = new Mailchimp(mailchimpConfigs.apiKey);
 
-//Callback style
+// Callback style
 exports.getListAudience = async (req, res, next) => {
     try {
         const data = await mailchimp.get({
