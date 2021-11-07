@@ -29,11 +29,11 @@ export default class MyDocument extends Document {
                     <link rel="stylesheet"
                           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
 
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KV9M5FJRPF"></script>
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L20NH7L0T8"></script>
                     <script
                         dangerouslySetInnerHTML={{
                             __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)}
-            gtag('js', new Date()); gtag('config', 'G-KV9M5FJRPF');`,
+            gtag('js', new Date()); gtag('config', 'G-L20NH7L0T8');`,
                         }}
                     />
                 </Head>

@@ -53,7 +53,7 @@ export default function ShopLayout({children}) {
             <div
                 className="fb-customerchat"
                 attribution="setup_tool"
-                page_id="162807341083416"
+                page_id="257648652814906"
                 theme_color="#0A7CFF"
                 logged_in_greeting="Hi! Bạn cần shop tư vấn gì ạ?"
                 logged_out_greeting="Hi! Bạn cần shop tư vấn gì ạ?"

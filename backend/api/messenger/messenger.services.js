@@ -265,7 +265,7 @@ function handleUserMessage(sender_psid, received_message) {
                             {
                                 type: "web_url",
                                 title: "Visit shop",
-                                url: "https://shop-illuminate.vercel.app/",
+                                url: "https://illuminate-ecommerce.vercel.app/",
                                 webview_height_ratio: "full",
                             },
                         ],
@@ -295,7 +295,7 @@ function handleUserMessage(sender_psid, received_message) {
                             {
                                 type: "web_url",
                                 title: "Visit shop",
-                                url: "https://shop-illuminate.vercel.app/",
+                                url: "https://illuminate-ecommerce.vercel.app/",
                                 webview_height_ratio: "full",
                             },
                         ],
