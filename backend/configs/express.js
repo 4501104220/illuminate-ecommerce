@@ -26,10 +26,23 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 
+
+    var origin = req.headers.origin;
+    if (allowedOrigins.indexOf(origin) > -1) {
+        res.setHeader('Access-Control-Allow-Origin', origin);
+    }
+    //res.header('Access-Control-Allow-Origin', 'http://127.0.0.1:8020');
+    res.header('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    res.header('Access-Control-Allow-Credentials', true);
+    return next();
+});
+
 app.use(
     cors({
         allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept", "X-Access-Token", "Authorization"],
         methods: "GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE",
+        origin: "*",
         credentials: true,
         origin: function (origin, callback) {
             // bypass the requests with no origin (like curl requests, mobile apps, etc )

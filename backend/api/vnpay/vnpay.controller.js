@@ -101,7 +101,7 @@ exports.getVnPayReturn = async function (req, res, next) {
     const checkSum = sha256(signData);
 
     if (secureHash === checkSum) {
-        //Kiem tra xem du lieu trong db co hop le hay khong va thong bao ket qua
+        // Kiem tra xem du lieu trong db co hop le hay khong va thong bao ket qua
         try {
             const result = await Order.findOneAndUpdate(
                 {_id: vnp_Params["vnp_OrderInfo"]},
