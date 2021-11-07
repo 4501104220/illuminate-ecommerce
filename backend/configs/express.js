@@ -42,7 +42,6 @@ app.use(
     cors({
         allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept", "X-Access-Token", "Authorization"],
         methods: "GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE",
-        origin: "*",
         credentials: true,
         origin: function (origin, callback) {
             // bypass the requests with no origin (like curl requests, mobile apps, etc )
