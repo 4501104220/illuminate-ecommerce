@@ -41,7 +41,7 @@ export default class MyDocument extends Document {
                           content="https://firebasestorage.googleapis.com/v0/b/ci37-32415.appspot.com/o/2eed7321-92f6-4d0f-ab72-01ef68c4e7d0_200x200.png?alt=media&token=d172e39c-f661-4a47-af31-30913048d571"/>
                     <meta property="og:title" content="Shop Illuminate"/>
                     <meta property="og:site_name"
-                          content="https://illuminate-ecommerce.vercel.app"/>
+                          content="thangtrantt https://illuminate-ecommerce.vercel.app"/>
                     <meta property="og:description"
                           content="Shop Illuminate | Mua Sắm Thỏa Thích, Giá Rẻ Bất Ngờ, Đa Dạng Sản Phẩm, Flash Sale, Freeship, Hỗ Trợ Đổi Trả, Chăm Sóc Khách Hàng 24/7... "/>
                     <meta name="keywords"
