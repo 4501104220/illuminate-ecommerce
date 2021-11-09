@@ -25,7 +25,7 @@ export default class MyDocument extends Document {
                 <Head>
                     {/* PWA primary color */}
                     <meta name="theme-color" content={theme.palette.primary.main}/>
-                    <meta name="google-site-verification" content="oxPZq_A_-N8VAEYF2Ou5isJgyap8w97sij3a5-LNmh0"/>
+                    <meta name="google-site-verification" content="xOiawMYiDPnEaGoMoSURX3aVkbR8-bfbGMtT1d4oFrE"/>
                     <meta charSet="utf-8"/>
                     <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
