@@ -27,7 +27,6 @@ export default class MyDocument extends Document {
                     <meta name="theme-color" content={theme.palette.primary.main}/>
                     <meta name="google-site-verification" content="xOiawMYiDPnEaGoMoSURX3aVkbR8-bfbGMtT1d4oFrE"/>
                     <meta charSet="utf-8"/>
-                    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <meta name="theme-color" content="#000000"/>
                     <meta name="title"
