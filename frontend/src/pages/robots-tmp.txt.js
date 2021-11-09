@@ -2,7 +2,6 @@ import React from "react";
 
 const getRobots = () => `User-agent: *
 Allow: /
-Disallow: /_next/static/
 Disallow: /api/*
 `;
 

@@ -26,10 +26,39 @@ export default class MyDocument extends Document {
                     {/* PWA primary color */}
                     <meta name="theme-color" content={theme.palette.primary.main}/>
                     <meta name="google-site-verification" content="oxPZq_A_-N8VAEYF2Ou5isJgyap8w97sij3a5-LNmh0"/>
+                    <meta charSet="utf-8"/>
+                    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+                    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                    <meta name="theme-color" content="#000000"/>
+                    <meta name="title"
+                          content="Shop Illuminate | Mua Sắm Thỏa Thích, Giá Rẻ Bất Ngờ, Đa Dạng Sản Phẩm, Flash Sale, Freeship, Hỗ Trợ Đổi Trả, Chăm Sóc Khách Hàng 24/7... "/>
+                    <meta name="description"
+                          content="Shop Illuminate | Mua Sắm Thỏa Thích, Giá Rẻ Bất Ngờ, Đa Dạng Sản Phẩm, Flash Sale, Freeship, Hỗ Trợ Đổi Trả, Chăm Sóc Khách Hàng 24/7... "/>
+                    <meta property="og:url" content="https://illuminate-ecommerce.vercel.app"/>
+                    <meta property="og:type" content="website"/>
+                    <meta property="og:image:width" content="600"/>
+                    <meta property="og:image:height" content="315"/>
+                    <meta property="og:image"
+                          content="https://firebasestorage.googleapis.com/v0/b/ci37-32415.appspot.com/o/2eed7321-92f6-4d0f-ab72-01ef68c4e7d0_200x200.png?alt=media&token=d172e39c-f661-4a47-af31-30913048d571"/>
+                    <meta property="og:title" content="Shop Illuminate"/>
+                    <meta property="og:site_name"
+                          content="https://illuminate-ecommerce.vercel.app"/>
+                    <meta property="og:description"
+                          content="Shop Illuminate | Mua Sắm Thỏa Thích, Giá Rẻ Bất Ngờ, Đa Dạng Sản Phẩm, Flash Sale, Freeship, Hỗ Trợ Đổi Trả, Chăm Sóc Khách Hàng 24/7... "/>
+                    <meta name="keywords"
+                          content="Shop Illuminate, shopilluminate, shop illuminate, Shopilluminate, illuminate-ecommerce.vercel.app, illuminate-ecommerce, illuminate ecommerce vercel app, illuminate-ecommerce vercel app, illuminate shop, illuminate, SHOPILLUMINATE"/>
+
                     <link rel="stylesheet"
                           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+                    <link rel="stylesheet"
+                          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+                    <link rel="stylesheet"
+                          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+                    <link rel="stylesheet"
+                          href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L20NH7L0T8"></script>
+                    <script async
+                            src="https://www.googletagmanager.com/gtag/js?id=G-L20NH7L0T8"></script>
                     <script
                         dangerouslySetInnerHTML={{
                             __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)}
