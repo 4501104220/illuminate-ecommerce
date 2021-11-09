@@ -21,12 +21,14 @@ const injectScipt = () => {
 export default class MyDocument extends Document {
     render() {
         return (
-            <Html lang="en">
+            <Html lang="vi">
                 <Head>
                     {/* PWA primary color */}
                     <meta name="theme-color" content={theme.palette.primary.main}/>
                     <meta name="google-site-verification" content="xOiawMYiDPnEaGoMoSURX3aVkbR8-bfbGMtT1d4oFrE"/>
                     <meta charSet="utf-8"/>
+                    <title>Shop Illuminate - Team Illuminate | Mua Sắm Thỏa Thích, Giá Rẻ Bất Ngờ, Đa Dạng Sản Phẩm, Flash Sale, Freeship, Hỗ Trợ Đổi Trả, Chăm Sóc Khách Hàng 24/7... "/>
+                    </title>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <meta name="theme-color" content="#000000"/>
                     <meta name="title"
@@ -41,7 +43,7 @@ export default class MyDocument extends Document {
                           content="https://firebasestorage.googleapis.com/v0/b/ci37-32415.appspot.com/o/2eed7321-92f6-4d0f-ab72-01ef68c4e7d0_200x200.png?alt=media&token=d172e39c-f661-4a47-af31-30913048d571"/>
                     <meta property="og:title" content="Shop Illuminate"/>
                     <meta property="og:site_name"
-                          content="thangtrantt https://illuminate-ecommerce.vercel.app"/>
+                          content="https://illuminate-ecommerce.vercel.app"/>
                     <meta property="og:description"
                           content="Shop Illuminate | Mua Sắm Thỏa Thích, Giá Rẻ Bất Ngờ, Đa Dạng Sản Phẩm, Flash Sale, Freeship, Hỗ Trợ Đổi Trả, Chăm Sóc Khách Hàng 24/7... "/>
                     <meta name="keywords"
