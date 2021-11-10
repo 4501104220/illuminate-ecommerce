@@ -25,7 +25,9 @@ export default class MyDocument extends Document {
                 <Head>
                     {/* PWA primary color */}
                     <meta name="theme-color" content={theme.palette.primary.main}/>
-                    <meta name="google-site-verification" content="xOiawMYiDPnEaGoMoSURX3aVkbR8-bfbGMtT1d4oFrE"/>
+                    {/*<meta name="google-site-verification" content="xOiawMYiDPnEaGoMoSURX3aVkbR8-bfbGMtT1d4oFrE"/>*/}
+
+                    <meta name="google-site-verification" content="F6ag8uIwxMpwP8v8Q7ggfql2lZ9kGD2bclpPfI_k_Jc" />
                     <meta charSet="utf-8"/>
                     <title>Shop Illuminate - Team Illuminate | Mua hàng online giá tốt, hàng chuẩn, ship nhanh</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
