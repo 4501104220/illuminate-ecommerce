@@ -60,8 +60,6 @@ export default class MyDocument extends Document {
                     <link rel="stylesheet"
                           href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 
-
-
                     <script async
                             src="https://www.googletagmanager.com/gtag/js?id=G-L20NH7L0T8"></script>
                     <script

@@ -1,6 +1,8 @@
 const Order = require("../order/order.model");
 const {APIError} = require("@helpers/ErrorHandler");
 
+
+
 function sortObject(o) {
     let sorted = {},
         key,
@@ -32,8 +34,8 @@ exports.createPaymentUrl = async function (req, res, next) {
             req.socket.remoteAddress ||
             req.connection.socket.remoteAddress;
 
-        const dateFormat = require("dateformat");
 
+     const dateFormat = require("dateformat-light");
         const date = new Date();
 
         const createDate = dateFormat(date, "yyyymmddHHmmss");

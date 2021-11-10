@@ -34,7 +34,7 @@ export default function MediaCard() {
                         {user?.fullName || ""}
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p" align="center">
-                        Code vì đam mê
+                        Code for My Life!
                     </Typography>
                 </CardContent>
             </CardActionArea>

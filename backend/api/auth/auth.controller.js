@@ -105,7 +105,7 @@ exports.verifyConfirm = async (req, res, next) => {
         const user = await UserModel.findOne(query);
 
         if (!user) throw new APIError({message: "Specified email not found!"});
-        if (user.confirmOTP !== req.query.otp) throw new APIError({message: "Otp does not match!"});
+        if (user.confirmOTP !== req.query.otp) throw new APIError({message: "OTP does not match!"});
 
         await UserModel.findOneAndUpdate(query, {isConfirmed: true, confirmOTP: null});
         return res.status(200).json({message: "Account confirmed success!"});
@@ -176,7 +176,7 @@ exports.resendConfirmOtp = async (req, res, next) => {
             mailer.send(mailConfigs.confirmEmails.from, req.body.email, "Confirm Account!", html),
             user.save(),
         ]);
-        return res.status(200).json({message: "Confirm otp sent!"});
+        return res.status(200).json({message: "Confirm OTP sent!"});
     } catch (err) {
         next(err);
     }
