@@ -52,7 +52,7 @@ export default class Responsive extends Component {
                 </div>
 
                 <Slider {...settings}>
-                    <Link href={{pathname: "/category/" + "Thời Trang"}}>
+                    <Link href={{pathname: "/category/" + "thoi-trang"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="https://salt.tikicdn.com/ts/category/dd/51/92/e6bc22b5ec0d6d965a93f056b7776493.png"
@@ -61,7 +61,7 @@ export default class Responsive extends Component {
                             <div className={styles.titleCategories}>Thời Trang</div>
                         </div>
                     </Link>
-                    <Link href={{pathname: "/category/" + "Sắc Đẹp"}}>
+                    <Link href={{pathname: "/category/" + "sac-dep"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="https://salt.tikicdn.com/ts/category/85/13/02/d8e5cd75fd88862d0f5f647e054b2205.png"
@@ -70,7 +70,7 @@ export default class Responsive extends Component {
                             <div className={styles.titleCategories}>Sắc Đẹp</div>
                         </div>
                     </Link>
-                    <Link href={{pathname: "/category/" + "Thiết Bị Điện Tử"}}>
+                    <Link href={{pathname: "/category/" + "thiet-bi-dien-tu"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="https://salt.tikicdn.com/ts/category/94/6a/42/3b262c87f2fd104b7cb50f38aef43e18.png"
@@ -79,7 +79,7 @@ export default class Responsive extends Component {
                             <div className={styles.titleCategories}>Thiết Bị Điện Tử</div>
                         </div>
                     </Link>
-                    <Link href={{pathname: "/category/" + "Hàng Quốc Tế"}}>
+                    <Link href={{pathname: "/category/" + "hang-quoc-te"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="https://salt.tikicdn.com/ts/category/9d/ba/6f/0c85993f0436f73cdfbababda1dc5595.png"
