@@ -111,7 +111,7 @@ export default function Order() {
                         </div>
                     </Grid>
                     <Grid item md={4}>
-                        <img src="/thank-for-purchase.png" className={classes.image}/>
+                        <img src="/shop_thankyou.jpeg" className={classes.image}/>
                     </Grid>
                 </Grid>
             </Container>

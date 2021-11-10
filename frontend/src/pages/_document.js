@@ -42,7 +42,7 @@ export default class MyDocument extends Document {
                     <meta property="og:image:width" content="600"/>
                     <meta property="og:image:height" content="315"/>
                     <meta property="og:image"
-                          content="https://firebasestorage.googleapis.com/v0/b/ci37-32415.appspot.com/o/2eed7321-92f6-4d0f-ab72-01ef68c4e7d0_200x200.png?alt=media&token=d172e39c-f661-4a47-af31-30913048d571"/>
+                          content="https://www.facebook.com/illuminate.ecommerce/photos/a.257648696148235/295253785721059"/>
                     <meta property="og:title" content="Shop Illuminate"/>
                     <meta property="og:site_name"
                           content="https://illuminate-ecommerce.vercel.app"/>

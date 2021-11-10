@@ -89,8 +89,8 @@ function AddressForm({handleNext}) {
                 <Grid item xs={6}>
                     <Controller
                         as={<TextField margin="normal" variant="outlined" fullWidth required/>}
-                        label="City"
-                        name="shipping.city"
+                        label="Ward"
+                        name="shipping.ward"
                         control={control}
                         helperText={errors.title ? errors.title.message : null}
                         error={errors.title ? true : false}
@@ -103,8 +103,8 @@ function AddressForm({handleNext}) {
                 <Grid item xs={6}>
                     <Controller
                         as={<TextField margin="normal" variant="outlined" fullWidth required/>}
-                        label="Ward"
-                        name="shipping.ward"
+                        label="District, City"
+                        name="shipping.city"
                         control={control}
                         helperText={errors.title ? errors.title.message : null}
                         error={errors.title ? true : false}

@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 
 const shippingSchema = {
     address: {type: String, required: true},
-    city: {type: String, required: true},
     ward: {type: String, required: true},
+    city: {type: String, required: true},
 };
 
 const userSchema = {
