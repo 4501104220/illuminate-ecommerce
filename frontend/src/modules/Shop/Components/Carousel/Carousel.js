@@ -88,7 +88,7 @@ export default class Responsive extends Component {
                             <div className={styles.titleCategories}>Hàng Quốc Tế</div>
                         </div>
                     </Link>
-                    <Link href={{pathname: "/category/" + "Điện Tử - Điện Lạnh"}}>
+                    <Link href={{pathname: "/category/" + "dien-tu-dien-lanh"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="https://salt.tikicdn.com/ts/category/70/52/b1/31587960ac1eb915a86a5a8202da583a.png"
@@ -97,7 +97,7 @@ export default class Responsive extends Component {
                             <div className={styles.titleCategories}>Điện Tử - Điện Lạnh</div>
                         </div>
                     </Link>
-                    <Link href={{pathname: "/category/" + "Thể Thao - Dã Ngoại"}}>
+                    <Link href={{pathname: "/category/" + "the-thao-da-ngoai"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="  https://salt.tikicdn.com/ts/category/90/78/11/b8a67fe010361551e515fdcca7709f69.png"
@@ -106,7 +106,7 @@ export default class Responsive extends Component {
                             <div className={styles.titleCategories}>Thể Thao - Dã Ngoại</div>
                         </div>
                     </Link>
-                    <Link href={{pathname: "/category/" + "Đồ Chơi Mẹ Và Bé"}}>
+                    <Link href={{pathname: "/category/" + "do-choi-me-va-be"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="https://salt.tikicdn.com/ts/category/66/15/4f/6282e8c6655cb87cb226e3b701bb9137.png"
@@ -115,7 +115,7 @@ export default class Responsive extends Component {
                             <div className={styles.titleCategories}>Đồ Chơi Mẹ Và Bé</div>
                         </div>
                     </Link>
-                    <Link href={{pathname: "/category/" + "Máy Ảnh"}}>
+                    <Link href={{pathname: "/category/" + "may-anh"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="https://salt.tikicdn.com/ts/category/c3/a4/87/4584c6298920124cb7da51de157ddac9.png"
@@ -124,7 +124,7 @@ export default class Responsive extends Component {
                             <div className={styles.titleCategories}>Máy Ảnh</div>
                         </div>
                     </Link>
-                    <Link href={{pathname: "/category/" + "Điện Gia Dụng"}}>
+                    <Link href={{pathname: "/category/" + "dien-gia-dung"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="https://salt.tikicdn.com/ts/category/b3/2b/72/8e7b4b703653050ffc79efc8ee017bd0.png"
@@ -133,7 +133,7 @@ export default class Responsive extends Component {
                             <div className={styles.titleCategories}>Điện Gia Dụng</div>
                         </div>
                     </Link>
-                    <Link href={{pathname: "/category/" + "Bách Hoá"}}>
+                    <Link href={{pathname: "/category/" + "bach-hoa"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="https://salt.tikicdn.com/ts/category/bd/9f/56/830a6a075c7cd78737a1d0c58e11926d.png"
@@ -142,7 +142,7 @@ export default class Responsive extends Component {
                             <div className={styles.titleCategories}>Bách Hoá</div>
                         </div>
                     </Link>
-                    <Link href={{pathname: "/category/" + "Thiết Bị Số"}}>
+                    <Link href={{pathname: "/category/" + "thiet-bi-so"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="https://salt.tikicdn.com/ts/category/85/b8/4e/bda4f4c039daa5bb8e6ecdccd7875b08.png"
@@ -151,7 +151,7 @@ export default class Responsive extends Component {
                             <div className={styles.titleCategories}>Thiết Bị Số</div>
                         </div>
                     </Link>
-                    <Link href={{pathname: "/category/" + "Nhà Cửa - Đời Sống"}}>
+                    <Link href={{pathname: "/category/" + "nha-cua-doi-song"}}>
                         <div className={styles.imageCategoriesWrap}>
                             <img
                                 src="https://salt.tikicdn.com/ts/category/12/29/a2/7409ff03cff5c0d3d695cb19f8f15896.png"
