@@ -27,8 +27,7 @@ export default class MyDocument extends Document {
                     <meta name="theme-color" content={theme.palette.primary.main}/>
                     <meta name="google-site-verification" content="xOiawMYiDPnEaGoMoSURX3aVkbR8-bfbGMtT1d4oFrE"/>
                     <meta charSet="utf-8"/>
-                    <title>Shop Illuminate - Team Illuminate | Mua Sắm Thỏa Thích, Giá Rẻ Bất Ngờ, Đa Dạng Sản Phẩm, Flash Sale, Freeship, Hỗ Trợ Đổi Trả, Chăm Sóc Khách Hàng 24/7... "/>
-                    </title>
+                    <title>Shop Illuminate - Team Illuminate | Mua hàng online giá tốt, hàng chuẩn, ship nhanh</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <meta name="theme-color" content="#000000"/>
                     <meta name="title"
@@ -57,6 +56,7 @@ export default class MyDocument extends Document {
                           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
                     <link rel="stylesheet"
                           href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+
 
                     <script async
                             src="https://www.googletagmanager.com/gtag/js?id=G-L20NH7L0T8"></script>
