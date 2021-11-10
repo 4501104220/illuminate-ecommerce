@@ -24,7 +24,7 @@ function ProductHome(props) {
     return (
         <Container>
             <Toolbar variant="dense" style={{backgroundColor: "#FFF", marginTop: 25}}>
-                <h4 style={{color: "#03c75a"}}> GỢI Ý CHO BẠN </h4>
+                <h4 style={{color: "#03c75a"}}> CÁC SẢN PHẨM BẠN ĐÃ XEM </h4>
             </Toolbar>
             <div style={{backgroundColor: "#03c75a", width: 200, height: 2}}></div>
             <ProductList products={products}/>

@@ -4,11 +4,11 @@ import {Controller} from "react-hook-form";
 const currencies = [
     {
         value: "giay-nam",
-        label: "Giày nam",
+        label: "Giày Nam",
     },
     {
         value: "giay-nu",
-        label: "Giày nữ",
+        label: "Giày Nữ",
     },
 ];
 

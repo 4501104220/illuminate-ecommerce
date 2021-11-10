@@ -20,10 +20,13 @@ function ProductCard({item}) {
                                 {item.title}
                             </Typography>
                         </CardContent>
-                        <CardActions className={classes.cartActions}>
+                        <CardActions className={classes.cartActions} style={{color: "red"}}>
                             ₫{convertPrice(item.price)}
                             <span style={{color: "grey"}}>Còn {item.inventory}</span>
                         </CardActions>
+                        <Typography style={{color: "yellow"}}>★★★★☆</Typography>
+                        <Typography ><span style={{color: "blue", fontSize: "14px"}}> Đã bán 3</span>
+                        </Typography>
                     </CardActionArea>
                 </Card>
             </Link>
