@@ -24,14 +24,14 @@ describe("Product", () => {
     // Prepare data for testing
     const userTestData = {
         password: "Test@123",
-        email: "maitraysuthar@test12345.com",
+        email: "ttxyzt@gmail.com",
     };
 
     // Prepare data for testing
     const testData = {
-        title: "testing product",
-        description: "testing product desc",
-        isbn: "3214htrff4",
+        title: "Testing product",
+        description: "Testing product desc",
+        isbn: "12346789",
     };
 
     /*

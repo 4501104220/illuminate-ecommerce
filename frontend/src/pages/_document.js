@@ -27,7 +27,7 @@ export default class MyDocument extends Document {
                     {/* PWA primary color */}
                     <meta name="theme-color" content={theme.palette.primary.main}/>
                     {/*<meta name="google-site-verification" content="xOiawMYiDPnEaGoMoSURX3aVkbR8-bfbGMtT1d4oFrE"/>*/}
-
+                    <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/ebicycle-rental.appspot.com/o/favicon.ico?alt=media&token=9a0a97ff-6014-48d4-97d7-355da0e7782b" />
                     <meta name="google-site-verification" content="F6ag8uIwxMpwP8v8Q7ggfql2lZ9kGD2bclpPfI_k_Jc" />
                     <meta charSet="utf-8"/>
                     <title>Shop Illuminate - Team Illuminate | Mua hàng online giá tốt, hàng chuẩn, ship nhanh</title>
