@@ -38,7 +38,7 @@ function OTPVerify({email, setRenderLogin}) {
     const handleChange = (otp) => setOtp(otp);
     const handleVerifyOtp = (otp) => {
         if (otp.length !== 6) {
-            toast("otp không hợp lệ");
+            toast("Mã OTP không hợp lệ!");
         } else {
             dispatch(verifyOtp({email, otp}));
         }
@@ -47,7 +47,7 @@ function OTPVerify({email, setRenderLogin}) {
     if (numberOfVerifyOtpFail > 2) {
         return (
             <Typography className={classes.wrong} variant="h3">
-                Bạn đã nhập sai 3 lần
+                Bạn đã nhập sai 3 lần!
             </Typography>
         );
     }
@@ -55,10 +55,10 @@ function OTPVerify({email, setRenderLogin}) {
         <Grid container justify="center" alignContent="center">
             <Grid item className={classes.otp}>
                 {numberOfVerifyOtpFail > 0 ? (
-                    <Typography className={classes.wrong}>Bạn đã nhập sai {numberOfVerifyOtpFail} lần</Typography>
+                    <Typography className={classes.wrong}>Bạn đã nhập sai {numberOfVerifyOtpFail} lần!</Typography>
                 ) : null}
                 <Typography>Nhập mã xác nhận OTP</Typography>
-                <Typography>(tính năng tạm thời bị tắt !! nhập 6 số để pass )</Typography>
+                <Typography>"Tính năng tạm thời bị tắt! Nhập 6 số để xác nhận OTP"</Typography>
                 <OtpInput
                     inputStyle={classes.otpInput}
                     containerStyle={classes.otpContianer}

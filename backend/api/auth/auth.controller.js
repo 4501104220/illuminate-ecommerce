@@ -24,7 +24,7 @@ exports.register = async (req, res, next) => {
 
         // Send confirmation email
         let html = `<p>Please Confirm your Account.</p><p>OTP: <a href='${process.env.BACKEND_URL}/api/auth/verify-otp?email=${req.body.email}&otp=${confirmOTP}'>  confirmOTP  </a></p>`;
-        await mailer.send(mailConfigs.confirmEmails.from, req.body.email, "Confirm Account", html);
+        // await mailer.send(mailConfigs.confirmEmails.from, req.body.email, "Confirm Account", html);
 
         const newUser = await user.save();
         return res.status(200).json(newUser.getDataResponse());
@@ -36,13 +36,13 @@ exports.register = async (req, res, next) => {
 exports.login = async (req, res, next) => {
     try {
         const user = await UserModel.findOne({email: req.body.email});
-        if (!user) throw new APIError({message: "Email or Password wrong"});
+        if (!user) throw new APIError({message: "Email or Password wrong!"});
 
         const isSamePassword = await bcrypt.compare(req.body.password, user.password);
-        if (!isSamePassword) throw new APIError({message: "Email or Password wrong"});
+        if (!isSamePassword) throw new APIError({message: "Password wrong!"});
 
         if (!user.isConfirmed || !user.status)
-            throw new APIError({message: "Account is not confirmed. Please confirm your account"});
+            throw new APIError({message: "Account is not confirmed. Please confirm your account!"});
 
         // Only send role in payload jwt if role # member
         let userData = user.getDataResponse();
@@ -87,6 +87,8 @@ exports.login = async (req, res, next) => {
     } catch (err) {
         next(err);
     }
+
+    console.log("aaa"+req.body.email);
 };
 
 exports.logout = async (req, res, next) => {
@@ -102,11 +104,11 @@ exports.verifyConfirm = async (req, res, next) => {
         const query = {email: req.query.email};
         const user = await UserModel.findOne(query);
 
-        if (!user) throw new APIError({message: "Specified email not found"});
-        if (user.confirmOTP !== req.query.otp) throw new APIError({message: "Otp does not match"});
+        if (!user) throw new APIError({message: "Specified email not found!"});
+        if (user.confirmOTP !== req.query.otp) throw new APIError({message: "Otp does not match!"});
 
         await UserModel.findOneAndUpdate(query, {isConfirmed: true, confirmOTP: null});
-        return res.status(200).json({message: "Account confirmed success"});
+        return res.status(200).json({message: "Account confirmed success!"});
     } catch (err) {
         next(err);
     }
@@ -145,7 +147,7 @@ exports.verifyOtpAuth = async (req, res, next) => {
             })
                 .then((data) => {
 
-                    // ma hash chu khong phai ma otp tu verify
+                    // Ma hash chu khong phai ma OTP tu verify
                     const confirmOTP = utility.randomNumber(4);
                     const otpKey = jwt.sign({confirmOTP}, jwtSecret, {expiresIn: jwtExpiresIn});
                     res
@@ -162,8 +164,8 @@ exports.verifyOtpAuth = async (req, res, next) => {
 exports.resendConfirmOtp = async (req, res, next) => {
     try {
         const user = await UserModel.findOne({email: req.body.email});
-        if (!user) throw new APIError({message: "Specified email not found"});
-        if (user.isConfirmed) throw new APIError({message: "Account already confirmed"});
+        if (!user) throw new APIError({message: "Specified email not found!"});
+        if (user.isConfirmed) throw new APIError({message: "Account already confirmed!"});
 
         let otp = utility.randomNumber(4);
         let html = "<p>Please Confirm your Account.</p><p>OTP: " + otp + "</p>";
@@ -171,10 +173,10 @@ exports.resendConfirmOtp = async (req, res, next) => {
         user.confirmOTP = otp;
 
         await Promise.all([
-            mailer.send(mailConfigs.confirmEmails.from, req.body.email, "Confirm Account", html),
+            mailer.send(mailConfigs.confirmEmails.from, req.body.email, "Confirm Account!", html),
             user.save(),
         ]);
-        return res.status(200).json({message: "Confirm otp sent"});
+        return res.status(200).json({message: "Confirm otp sent!"});
     } catch (err) {
         next(err);
     }

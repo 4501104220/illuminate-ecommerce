@@ -20,7 +20,7 @@ function Register({setEmail, setRenderLogin}) {
         try {
             const {data} = await api.post("/api/auth/register", values);
             if (data) {
-                toast("Đăng kí thành công !");
+                toast("Account registered success!");
             }
         } catch (err) {
             toast(err.response.data.message);

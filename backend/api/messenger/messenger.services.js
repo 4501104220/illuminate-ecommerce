@@ -31,7 +31,7 @@ function handleLoopMessage(sender_psid, received_message) {
                             async function (err, user) {
                                 if (user) {
                                     response = {
-                                        text: "Vui lòng nhập mã otp (123321)!",
+                                        text: "Vui lòng nhập mã OTP(123321)!",
                                     };
                                     callSendAPI(sender_psid, response);
 
