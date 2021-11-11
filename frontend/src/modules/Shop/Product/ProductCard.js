@@ -24,8 +24,8 @@ function ProductCard({item}) {
                             ₫{convertPrice(item.price)}
                             <span style={{color: "grey"}}>Còn {item.inventory}</span>
                         </CardActions>
-                        <Typography style={{color: "yellow"}}>★★★★☆</Typography>
-                        <Typography ><span style={{color: "blue", fontSize: "14px"}}> Đã bán 3</span>
+                        <Typography style={{color: "#ffce3d"}}>★★★★☆</Typography>
+                        <Typography ><span style={{color: "blue", fontSize: "13.5px"}}> Đã bán 3</span>
                         </Typography>
                     </CardActionArea>
                 </Card>
