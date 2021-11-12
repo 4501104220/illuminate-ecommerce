@@ -20,7 +20,7 @@ function CategoryCreate(props) {
         try {
             const {data} = await api.post("/api/category", values);
             if (data) {
-                toast("Create success !");
+                toast("Create success!");
                 router.replace({
                     pathname: "./" + values.slug,
                 });

@@ -10,6 +10,18 @@ const currencies = [
         value: "giay-nu",
         label: "Giày Nữ",
     },
+    {
+        value: "thoi-trang",
+        label: "Thời Trang",
+    },
+    {
+        value: "thiet-bi-dien-tu",
+        label: "Thiết Bị Điện Tử",
+    },
+    {
+        value: "sac-dep",
+        label: "Sắc Đẹp",
+    },
 ];
 
 function BasicInfoProduct({control, errors}) {

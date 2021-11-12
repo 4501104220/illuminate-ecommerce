@@ -10,7 +10,8 @@ const ProductSchema = new Schema(
         category: {type: String, required: true},
         price: {type: Number, required: true},
         inventory: {type: Number, required: true},
-        image: {type: String},
+        image: {type: String, required: true},
+        updatedAt: {type: Date, required: true},
     },
     {timestamps: true}
 );

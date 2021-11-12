@@ -2,24 +2,26 @@
 
 E-Commerce
 
-Demo: https://
+Frontend link: https://illuminate-ecommerce.vercel.app/
+
+Backend link: https://illuminate-ecommerce.herokuapp.com/
 
 ---
 
 ## Basic features:
 
-1. Dashboard CURD,
+1. Dashboard CURD
 2. Chart
 3. Shop store
 4. Authentication
 
 ## More features:
 
-1. Messenger Chatbot (NLP vs wit.ai)
+1. Messenger Chat bot (NLP vs wit.ai)
 2. OTP verify
 3. Mailchimp
 4. SEO basic
-5. Paypal, VNPAY
+5. PayPal, VNPay
 
 ## Video demo:
 
@@ -29,14 +31,14 @@ https://youtu.be/
 
 ## Technologies:
 
-    React.js, Redux, Nextjs, NodeJs (Expressjs), MongoDB, Material-UI, JWT, Docker, Heroku, Vercel,...
+    React.js, Redux, Next.js, NodeJS (Expressjs), MongoDB, Material-UI, JWT, Docker, Heroku, Vercel,...
 
 ---
 
-## Requierments:
+## Requirements:
 
-    Nodejs version : > 12.
-    Mongodb version : > 4.
+    NodeJS version: > 12.0
+    MongoDB version: > 4.0
 
 ---
 

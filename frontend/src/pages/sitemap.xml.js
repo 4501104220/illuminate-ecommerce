@@ -1,5 +1,6 @@
 import React from "react";
 import api from "services/axios";
+
 import {DOMAIN} from "configs/constants";
 
 const origin = DOMAIN;

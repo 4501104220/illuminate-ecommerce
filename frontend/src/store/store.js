@@ -1,5 +1,5 @@
-import {configureStore, getDefaultMiddleware} from "@reduxjs/toolkit";
-import {createWrapper} from "next-redux-wrapper";
+import { configureStore, getDefaultMiddleware} from "@reduxjs/toolkit";
+import { createWrapper } from "next-redux-wrapper";
 import combinedReducer from "./rootReducer";
 
 export const reducer = (state, action) => {
