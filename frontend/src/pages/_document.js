@@ -27,7 +27,23 @@ export default class MyDocument extends Document {
                     {/* PWA primary color */}
                     <meta name="theme-color" content={theme.palette.primary.main}/>
                     {/*<meta name="google-site-verification" content="xOiawMYiDPnEaGoMoSURX3aVkbR8-bfbGMtT1d4oFrE"/>*/}
-                    <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/ebicycle-rental.appspot.com/o/favicon.ico?alt=media&token=9a0a97ff-6014-48d4-97d7-355da0e7782b" />
+
+
+                    {/*<link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/ebicycle-rental.appspot.com/o/favicon.ico?alt=media&token=9a0a97ff-6014-48d4-97d7-355da0e7782b" />*/}
+                    {/*<meta property="og:url" content="https://illuminate-ecommerce.vercel.app"/>*/}
+                    {/*<meta property="og:type" content="website"/>*/}
+                    {/*<meta property="og:image:width" content="600"/>*/}
+                    {/*<meta property="og:image:height" content="315"/>*/}
+                    {/*<meta property="og:image"*/}
+                    {/*      content="https://www.facebook.com/illuminate.ecommerce/photos/a.257648696148235/295253785721059"/>*/}
+                    {/*<meta property="og:title" content="Shop Illuminate - Team Illuminate"/>*/}
+                    {/*<meta property="og:site_name"*/}
+                    {/*      content="https://illuminate-ecommerce.vercel.app"/>*/}
+                    {/*<meta property="og:description"*/}
+                    {/*      content="Shop Illuminate | Mua Sắm Thỏa Thích, Giá Rẻ Bất Ngờ, Đa Dạng Sản Phẩm, Flash Sale, Freeship, Hỗ Trợ Đổi Trả, Chăm Sóc Khách Hàng 24/7... "/>*/}
+
+
+
                     <meta name="google-site-verification" content="F6ag8uIwxMpwP8v8Q7ggfql2lZ9kGD2bclpPfI_k_Jc" />
                     <meta charSet="utf-8"/>
                     <title>Shop Illuminate - Team Illuminate | Mua hàng online giá tốt, hàng chuẩn, ship nhanh</title>
@@ -36,17 +52,6 @@ export default class MyDocument extends Document {
                     <meta name="title"
                           content="Shop Illuminate | Mua Sắm Thỏa Thích, Giá Rẻ Bất Ngờ, Đa Dạng Sản Phẩm, Flash Sale, Freeship, Hỗ Trợ Đổi Trả, Chăm Sóc Khách Hàng 24/7... "/>
                     <meta name="description"
-                          content="Shop Illuminate | Mua Sắm Thỏa Thích, Giá Rẻ Bất Ngờ, Đa Dạng Sản Phẩm, Flash Sale, Freeship, Hỗ Trợ Đổi Trả, Chăm Sóc Khách Hàng 24/7... "/>
-                    <meta property="og:url" content="https://illuminate-ecommerce.vercel.app"/>
-                    <meta property="og:type" content="website"/>
-                    <meta property="og:image:width" content="600"/>
-                    <meta property="og:image:height" content="315"/>
-                    <meta property="og:image"
-                          content="https://www.facebook.com/illuminate.ecommerce/photos/a.257648696148235/295253785721059"/>
-                    <meta property="og:title" content="Shop Illuminate - Team Illuminate"/>
-                    <meta property="og:site_name"
-                          content="https://illuminate-ecommerce.vercel.app"/>
-                    <meta property="og:description"
                           content="Shop Illuminate | Mua Sắm Thỏa Thích, Giá Rẻ Bất Ngờ, Đa Dạng Sản Phẩm, Flash Sale, Freeship, Hỗ Trợ Đổi Trả, Chăm Sóc Khách Hàng 24/7... "/>
                     <meta name="keywords"
                           content="Shop Illuminate, shopilluminate, shop illuminate, Shopilluminate, illuminate-ecommerce.vercel.app, illuminate-ecommerce, illuminate ecommerce vercel app, illuminate-ecommerce vercel app, illuminate shop, illuminate, SHOPILLUMINATE"/>
