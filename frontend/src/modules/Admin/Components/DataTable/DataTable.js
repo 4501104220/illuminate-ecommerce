@@ -28,11 +28,6 @@ const useStyles = makeStyles((theme) => ({
         paddingLeft: theme.spacing(2),
         paddingRight: theme.spacing(2),
     },
-    // tableCell :{
-    //   whiteSpace: "nowrap",
-    //   textOverflow: "ellipsis",
-    //   overflow: "hidden"
-    // }
 }));
 
 function DataTable({data = [], orderByDefault, dataTableConfigs, checkbox}) {

@@ -81,7 +81,7 @@ function SearchField(props) {
     const [redirect, setRedirect] = useState(false);
     const [tags, setTags] = useState([]);
 
-    let arrayTag = ["đồng hồ", "thiết bị điện tử", "hàng quốc tế"];
+    let arrayTag = ["giày nam", "thiết bị điện tử", "giày nữ"];
 
     const fetchData = async () => {
         // const callApiData = await callApi("product/").then(async (response) => {

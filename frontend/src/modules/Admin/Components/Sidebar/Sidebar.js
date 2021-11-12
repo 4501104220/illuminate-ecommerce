@@ -26,7 +26,7 @@ function SideBar({isToggle}) {
     return (
         <>
             <div className={classes.toolbar}>
-                {isToggle ? <h1 className={classes.logoText}>Logo </h1> : <h1 className={classes.logoText}>LG</h1>}
+                {isToggle ? <h1 className={classes.logoText}>ADMIN </h1> : <h1 className={classes.logoText}>AD</h1>}
             </div>
             <PerfectScrollbar options={{suppressScrollX: true}}>
                 <Divider/>
@@ -34,14 +34,6 @@ function SideBar({isToggle}) {
                     {appMenuItems.map((item, index) => (
                         <NavItems {...item} key={index}/>
                     ))}
-                    {/* <Link href="/">
-            <ListItem button>
-              <ListItemIcon>
-                <MailIcon />
-              </ListItemIcon>
-              <ListItemText>Hello</ListItemText>
-            </ListItem>
-          </Link> */}
                 </List>
             </PerfectScrollbar>
         </>
