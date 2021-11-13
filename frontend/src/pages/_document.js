@@ -75,10 +75,12 @@ export default class MyDocument extends Document {
                     />
                 </Head>
                 <body>
-
+                <h1>
+                    Shop Illuminate - Team Illuminate | Mua hàng online giá tốt, hàng chuẩn, ship nhanh
+                </h1>
                 <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPQNV2S"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
-
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}>
+                </noscript>
                 <Main/>
                 <NextScript/>
                 </body>
