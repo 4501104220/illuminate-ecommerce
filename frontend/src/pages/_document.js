@@ -46,7 +46,7 @@ export default class MyDocument extends Document {
 
                     <meta name="google-site-verification" content="F6ag8uIwxMpwP8v8Q7ggfql2lZ9kGD2bclpPfI_k_Jc" />
                     <meta charSet="utf-8"/>
-                    <title>Shop Illuminate - Team Illuminate | Mua hàng online giá tốt, hàng chuẩn, ship nhanh</title>
+                    <title>Shop Illuminate | Mua hàng online giá tốt, hàng chuẩn, ship nhanh</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <meta name="theme-color" content="#000000"/>
                     <meta name="title"
@@ -76,7 +76,7 @@ export default class MyDocument extends Document {
                 </Head>
                 <body>
                 <h1>
-                    Shop Illuminate - Team Illuminate | Mua hàng online giá tốt, hàng chuẩn, ship nhanh
+                    Shop Illuminate | Mua hàng online giá tốt, hàng chuẩn, ship nhanh
                 </h1>
                 <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPQNV2S"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}>

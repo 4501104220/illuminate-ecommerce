@@ -40,7 +40,9 @@ function Cart(props) {
                     />
                 </TableCell>
                 <TableCell>
-                    <img src={item.image} style={{width: 50}}/>
+                    <img src={item.image}
+                         alt="image item"
+                         style={{width: 50}}/>
                 </TableCell>
                 <TableCell>{item.title}</TableCell>
                 <TableCell align="left">{convertPrice(item.price)}</TableCell>

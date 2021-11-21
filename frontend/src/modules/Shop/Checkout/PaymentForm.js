@@ -108,7 +108,7 @@ export default function PaymentForm({total, handleBack}) {
                                             <Grid item>
                                                 <img
                                                     src="https://img.ltwebstatic.com/images2_pi/2018/06/06/15282728552982326415.png"
-                                                    alt="my image"
+                                                    alt="image payment"
                                                 />
                                             </Grid>
                                         </Grid>
@@ -130,7 +130,7 @@ export default function PaymentForm({total, handleBack}) {
                                         <Grid item>
                                             <img
                                                 src="https://img.ltwebstatic.com/images2_pi/2018/06/06/15282728552982326415.png"
-                                                alt="my image"
+                                                alt="image payment"
                                             />
                                         </Grid>
                                         {paymentMethod === "paypal" && (
@@ -151,7 +151,7 @@ export default function PaymentForm({total, handleBack}) {
                                         <Grid>
                                             <img
                                                 src="https://img.ltwebstatic.com/images2_pi/2018/06/06/15282728552982326415.png"
-                                                alt="my image"
+                                                alt="image payment"
                                             />
                                         </Grid>
                                         {paymentMethod === "vnpay" && (

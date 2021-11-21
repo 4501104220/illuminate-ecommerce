@@ -20,7 +20,7 @@ const CustomForm = ({status, message, onValidated}) => {
             <TextField
                 inputRef={(node) => (name = node)}
                 type="text"
-                placeholder="Your name"
+                placeholder="Tên"
                 variant="outlined"
                 size="small"
             />
@@ -28,14 +28,14 @@ const CustomForm = ({status, message, onValidated}) => {
             <TextField
                 inputRef={(node) => (email = node)}
                 type="email"
-                placeholder="Your email"
+                placeholder="Email"
                 variant="outlined"
                 size="small"
                 margin="normal"
             />
             <br/>
             <Button variant="contained" color="primary" onClick={submit}>
-                Submit
+                Xác nhận
             </Button>
         </div>
     );

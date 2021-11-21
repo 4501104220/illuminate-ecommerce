@@ -139,7 +139,9 @@ const getCartInfo = (cartItems) =>
     cartItems.map((item) => {
         return (
             <div style={{display: "flex", marginBottom: 5}} key={item._id}>
-                <img src={item.image} style={{width: 40, border: "1px solid #dadada"}}/>
+                <img src={item.image}
+                     alt="image item"
+                     style={{width: 40, border: "1px solid #dadada"}}/>
                 <h3
                     style={{
                         width: 200,
