@@ -11,21 +11,18 @@ Backend link: https://illuminate-ecommerce.herokuapp.com/
 ## Basic features:
 
 1. Dashboard CURD
-2. Chart
+2. Shopping cart
 3. Shop store
 4. Authentication
 
 ## More features:
 
-1. Messenger Chat bot (NLP vs wit.ai)
+1. Messenger Chat bot (NLP vs wit.ai), tawk.to
 2. OTP verify
-3. Mailchimp
-4. SEO basic
-5. PayPal, VNPay
-
-## Video demo:
-
-https://youtu.be/
+3. Mailchimp 
+4. SEO basic, url friendly, social sharing
+5. PayPal, VNPAY
+6. Google Analytics
 
 ---
 
