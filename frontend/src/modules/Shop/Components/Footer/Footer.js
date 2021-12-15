@@ -17,7 +17,8 @@ const footers = [
             "Lý Hoàng Long",
             "Đặng Phan Hoàng Sang",
             "Chan Hồng Vỹ",
-            "Nguyễn Tiến Vương"],
+            "Nguyễn Tiến Vương",
+            "Lê Thị Thanh Huyền"],
     }
 ];
 
