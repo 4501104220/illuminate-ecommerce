@@ -38,7 +38,7 @@ function Header(props) {
                     <Toolbar className={classes.toolBar} disableGutters>
                         <Link href="/">
                             <a>
-                                <img src="/logo.png" alt="Logo web shop Illuminate" className={classes.logo}/>
+                                <img src="/logo.png" alt="Logo Shop Illuminate" className={classes.logo}/>
                             </a>
                         </Link>
                         <SearchField/>

@@ -25,7 +25,7 @@ const WrappedApp = ({Component, pageProps, router}) => {
     }
     if (router.pathname.startsWith("/admin")) {
         return (
-            <PersistGate persistor={store.__persistor} loading={<h1>loading</h1>}>
+            <PersistGate persistor={store.__persistor} loading={<h1>Loading...</h1>}>
                 <AdminRoute>
                     <AdminLayout>
                         <ToastContainer/>

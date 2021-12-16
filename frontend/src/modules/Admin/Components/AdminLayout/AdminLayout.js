@@ -54,7 +54,7 @@ function AdminLayout({children}) {
             <div className={classes.appContent}>
                 <Header toggle={toggle} handleToggle={handleDrawerToggle}/>
                 <main className={classes.content}>
-                    <div className={classes.toolbar}/>
+                    <div className={SideBar.toolbar}/>
                     {children}
                 </main>
             </div>

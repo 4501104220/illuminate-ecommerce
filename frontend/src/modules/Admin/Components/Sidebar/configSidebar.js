@@ -29,7 +29,7 @@ const appMenuItems = [
         Icon: IconBarChart,
         items: [
             {
-                name: "Create Poduct",
+                name: "Create Product",
                 link: "/admin/product/create",
             },
             {
