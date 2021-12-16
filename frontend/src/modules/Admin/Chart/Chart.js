@@ -28,8 +28,8 @@ export default function Chart() {
         async function fetchData() {
      try {
                //const {data} = await api.get(`/api/order/get-report-for-day`);
-          const {data} = await get("https://kinshop-api.herokuapp.com/api/order/get-report-for-day");
-           //   const {data} = {"arr":[0,300000,0,0,0,0,0,0,450000,0,0],"arr2":[0,200000,0,0,500000,0,0,0,450000,0,0]};
+      //    const {data} = await get("https://kinshop-api.herokuapp.com/api/order/get-report-for-day");
+        const data = {"arr":[0,300000,0,0,0,0,0,0,450000,0,0],"arr2":[0,200000,0,0,500000,0,0,0,450000,0,0]};
 
 
                if (data) {
